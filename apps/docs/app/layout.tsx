@@ -1,3 +1,6 @@
+import "../src/styles/global.css"
+import "@ssd/ui/styles.css"
+
 export default function RootLayout({
   children,
 }: {

@@ -1,9 +1,8 @@
-import { Button, Header } from "ui";
+import { Button } from "@ssd/ui";
 
 export default function Page() {
   return (
     <>
-      <Header text="Docs" />
       <Button />
     </>
   );

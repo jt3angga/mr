@@ -9,16 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ssd/ui": "workspace:*",
     "next": "^13.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ui": "workspace:*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
-    "eslint-config-custom": "workspace:*",
+    "autoprefixer": "^10.4.13",
+    "eslint-config-ssd": "workspace:*",
+    "postcss": "^8.4.20",
+    "tailwind-config": "workspace:*",
+    "tailwindcss": "^3.2.4",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.3"
   }

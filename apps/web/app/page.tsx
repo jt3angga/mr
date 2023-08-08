@@ -1,10 +1,10 @@
-import { Button, Header } from "ui";
+import { Button } from "@ssd/ui";
 
 export default function Page() {
   return (
     <>
-      <Header text="Web" />
-      <Button />
+      <div>Web</div>
+      <Button primary size="large" label="Tombol" />
     </>
   );
 }
